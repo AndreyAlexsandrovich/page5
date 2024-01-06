@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Сайт-визитка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav>
+                    <div class="burger-menu">
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                    </div>
+                    <ul class="header__item item">
+                        <li class="header__items">
+                            <a href="#aboutUs" class="header__link">Обо мне</a>
+                        </li>
+                        <li class="header__items">
+                            <a href="#portfolio" class="header__link">Портфолио</a>
+                        </li>
+                        <li class="header__items">
+                            <a href="#progress" class="header__link">Мои достижения</a>
+                        </li>
+                        <li class="header__items">
+                            <a href="#hobby" class="header__link">Чем увлекаюсь</a>
+                        </li>
+                        <li class="header__items">
+                            <a href="#writing" class="header__link">На чём пишу</a>
+                        </li>
+                        <li class="header__items">
+                            <a href="#price" class="header__link">Мои услуги</a>
+                        </li>
+
+                    </ul>
+                    <button class="darkMode">Поменять тему</button>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="aboutUs" id="aboutUs">
+                <div class="container">
+                    <div class="flex-container">
+                        <img src="img/photo_2023-06-17_23-45-41.jpg" alt="Это я" class="aboutUs__img" width="100%">
+                        <p class="aboutUs__text">Привет. Я web-developer и занимаюсь разработкой уже год. Однажды взял
+                            заказ на wordpress и сделал сайт клиенту на чистом wp.
+                            Мой путь разработчика стал удивительным(начало увлекался только html и за этим пошёл на
+                            курсы, и узнал что такое css, js и потом реакт). Раньше занимался музыкой, но потом это дело
+                            внутри меня перегорело и каждый раз занимаясь музыкой я себя заставлял, словно как ходить на
+                            нелюбимою работу.
+                            А когда начал заниматься разработкой мне это очень сильно понравилось и будто появилось
+                            чувство свободы внутри. Хоть иногда ругаюсь что что-то не получается, но мне это в кайф
+                            заниматься сложными задачами
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <h1 class="portfolio__title">Вот мои работы кстати</h1>
+                    <div class="slider-container">
+                        <div class="coursel">
+                            <img class="img-coursel" src="img/portfolio/1.jpg" alt="">
+                            <img class="img-coursel" src="img/portfolio/2.jpg" alt="">
+                            <img class="img-coursel" src="img/portfolio/3.jpg" alt="">
+                            <img class="img-coursel" src="img/portfolio/4.jpg" alt="">
+                            <img class="img-coursel" src="img/portfolio/5.jpg" alt="">
+                        </div>
+                        <div class="control">
+                            <button class="left">Влево</button>
+                            <button class="right">Вправо</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="progress" id="progress">
+                <div class="container">
+                    <h1 class="progress__title">Мои достижения в разработке и в жизни</h1>
+                    <div class="cards">
+
+                        <div class="progress__card">
+                            <img src="./img/progress/1.png" alt="" class="img__cards" width="15%">
+                            <p class="progress__text">Выпито энергетиков</p>
+                            <span class="number" data-max="500">0</span>
+                        </div>
+                        <div class="progress__card">
+                            <img src="./img/progress/2.png" alt="" class="img__cards" width="15%">
+                            <p class="progress__text">Бессоные ночи</p>
+                            <span class="number" data-max="80" id="number">0</span>
+                        </div>
+                        <div class="progress__card">
+                            <img src="./img/progress/3.png" alt="" class="img__cards" width="15%">
+                            <p class="progress__text">Нажато кнопок на клавиатуре</p>
+                            <span>Такого числа нету</span>
+                        </div>
+                        <div class="progress__card">
+                            <img src="./img/progress/4.png" alt="" class="img__cards" width="15%">
+                            <p class="progress__text">Взято заказов на kwork</p>
+                            <span class="number" data-max="2" id="number">0</span>
+                        </div>
+                        <div class="progress__card">
+                            <img src="./img/progress/5.png" alt="" class="img__cards" width="15%">
+                            <p class="progress__text">Написанный проектов на js</p>
+                            <span class="number" data-max="5" id="number">0</span>
+                        </div>
+                        <div class="progress__card">
+                            <img src="./img/progress/6.png" alt="" class="img__cards" width="25%">
+                            <p class="progress__text">Заработал на своём навыке</p>
+                            <span class="number" data-max="1000" id="number">0</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="hobby" id="hobby">
+                <div class="container">
+                    <h1 class="hobby__title">Чем я увлекаюсь? Смотри</h1>
+                    <p class="hobby__text">В основном я играю или программирую целыми днями(Какой там щас год на
+                        улице?)
+                        За всю свою короткую жизнь(17 лет) я прошёл около 100 игр. В данный момент я играю в
+                        borderlands(уже 25 lvl)
+                        Жизнь скучная у меня, но и рассказать много интресного могу. По типу:Психологии,
+                        программирование, науки, физики, фин.грамотности, программировании, музыки(Но это никому не
+                        интересно)
+                        Поэтому в основном я сижу за компом играю и программирую разные штучки на сайтах)
+                        Дальнейшие планы:Создать свою команду разработчиков и начать людям создавать сайты для их
+                        бизнеса. Но пока что, стать крутым фронтендером
+                    </p>
+                </div>
+            </section>
+            <section class="on_what_writing" id="writing">
+                <div class="container">
+                    <h1 class="on_what_writing__title">
+                        На каких языках пишу
+                    </h1>
+                    <div class="on_what_writing__cards cards">
+                        <div class="cards__card">
+                            <img src="img/on_what_writing/pngwing.com (2).png" alt="" class="cards__img" width="40%">
+                            <h2 class="cards__title">HTML</h2>
+                        </div>
+                        <div class="cards__card">
+                            <img src="img/on_what_writing/pngwing.com (3).png" alt="" class="cards__img" width="40%">
+                            <h2 class="cards__title">CSS</h2>
+                        </div>
+                        <div class="cards__card">
+                            <img src="img/on_what_writing/pngwing.com (4).png" alt="" class="cards__img" width="40%">
+                            <h2 class="cards__title">JavaScript</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="price" id="price">
+                <div class="container">
+                    <h1 class="price__title">
+                        Мои услуги
+                    </h1>
+                    <div class="box">
+
+                        <div class="accordion">
+                            Сайт-визитка 10.000р для подробностей нажмите
+                        </div>
+                        <p class="content">Сайт-визитка - небольшой сайт, как правило, состоящий из одной (или
+                            нескольких) веб-страниц и содержащий основную информацию об организации, частном лице,
+                            компании, товарах или услугах, прейскуранты, контактные данные</p>
+                        <div class="accordion">
+                            Интернет-магазин 20.000р для подробностей нажмите
+                        </div>
+                        <p class="content">Интернет-магазин - сайт, торгующий товарами посредством сети Интернет. Позволяет пользователям
+                            онлайн, в своём браузере или через мобильное приложение, сформировать заказ на покупку,
+                            выбрать способ оплаты и доставки заказа, оплатить заказ. При этом продажа товаров
+                            осуществляется дистанционным способом и она накладывает ограничения на продаваемые товары.
+                            Так, в некоторых странах имеется запрет на интернет-торговлю алкоголем, оружием, ювелирными
+                            изделиями и другими товарами (к примеру, в России запрещена дистанционная продажа алкоголя и
+                            других товаров, свободная реализация которых запрещена или ограничена</p>
+                        <div class="accordion">
+                            Landing-page 15.000р для подробностей нажмите
+                        </div>
+                        <p class="content">Landing-page - это одностраничный сайт с краткой информацией о товаре, услуге или
+                            мероприятии. Его задача — превращать посетителей в клиентов. Пользователи переходят на
+                            лендинг по ссылкам с рекламных баннеров, постов из соцсетей, электронных писем или СМС.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+              <h3 class="footer__title">
+                Андрей Александрович. Сайт создан 7.01.24 
+              </h3>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script src="js/dark-mode.js"></script>
+    <script src="js/accordion.js"></script>
+
+</body>
+
+</html>
